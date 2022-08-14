@@ -32,6 +32,7 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('certificate/',include('certificate_verification.urls')),
-    path('', include('form.urls'))
+    path('', include('form.urls')),
+    path('', include('events.urls'))
     
 ]

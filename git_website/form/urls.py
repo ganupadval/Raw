@@ -4,9 +4,8 @@ from form import views
 
 
 urlpatterns=[
-    # path(r'^verify$',views.certificateApi),
-    # path(r'^verify/([0-9]+)$',views.certificateApi),
+    
     path('form/',views.formApi),
-    path ('formadmin/',views.formAdmin)
+    path ('form-admin/',views.formAdmin)
     ]
 
